@@ -28,12 +28,12 @@ function App() {
               <p className="text-center text-lg lg:text-2xl font-spaceGrotesk font-semibold">
                 Experience Silicon Valley in London
               </p>
-            <h1 className="text-4xl lg:text-6xl font-medium text-center font-spaceGrotesk"><span className=" text-secondary">ASES</span> x <span className="text-primary">London</span></h1>
-            <h1 className="text-4xl lg:text-6xl font-medium text-center font-spaceGrotesk">Startup Bootcamp</h1>
+            <h1 className="text-4xl lg:text-6xl font-medium text-center font-spaceGrotesk"><span className=" text-primary">ASES</span> x <span className="text-secondary">London</span></h1>
+            <h1 className="text-4xl lg:text-6xl font-medium text-center font-spaceGrotesk">Startup Fellowship</h1>
 
-            <p className="text-center text-lg lg:text-2xl font-spaceGrotesk font-medium">Join our 10 week course to get you started on your startup journey and a chance to go to Stanford expenses paid!</p>
+            <p className="text-center text-lg lg:text-2xl font-spaceGrotesk font-medium">Join our 10 week course to get started on your startup and VC journey and a chance to win a subsidised trip to Stanford!</p>
             </div>
-            <a href="https://google.com" target="_blank" rel="noopener noreferrer" className="bg-primary text-white p-4 rounded-md font-bold text-lg lg:text-2xl">Apply Now</a>
+            <a href="https://forms.gle/WXCZERSABw1FHc687" target="_blank" rel="noopener noreferrer" className="bg-primary text-white p-4 rounded-md font-bold text-lg lg:text-2xl hover:scale-105 transition-all duration-300">Apply Now</a>
             <div className="flex flex-col">
               <p className="text-center font-roboto lg:text-lg font-medium p-5">
                 In collaboration with
@@ -47,14 +47,29 @@ function App() {
           </div>
         </div>
       </div>
+      
       <div className="grid grid-cols-4 gap-5 px-5 py-10 bg-secondary">
         <div className="col-span-4 lg:col-start-2 lg:col-end-4 flex flex-col justify-center gap-5 items-center">
-          <div className="flex flex-col gap-5 py-5">
-            <h1 className="text-2xl lg:text-4xl font-semibold font-spaceGrotesk text-white">Programme Overview</h1>
-            <p className="text-white font-roboto lg:text-lg">Apply to the Stanford ASES London Fellowship—a 12-week program for those hoping to build a startup or pursue a career in VC. Founded by alumni of Stanford's ASES Summit (2024), we are bringing the entrepreneurial energy of Silicon Valley and ASES to London. Supported by LSESU Entrepreneurs and Kings Entrepreneurs, we are looking for 30 ambitious students based in London to join our program.</p>
+          <div className="flex flex-col gap-5">
+            <h1 className="text-2xl lg:text-4xl font-semibold font-spaceGrotesk text-white">Why Join?</h1>
+            <p className="text-white font-roboto lg:text-lg">The Stanford ASES London Fellowship is a 10-week program designed for aspiring startup founders and future venture capitalists. Founded by alumni of Stanford's ASES Summit (2024), the fellowship brings the entrepreneurial energy and culture of Silicon Valley to London, supported by LSESU Entrepreneurs and Kings Entrepreneurs. <br/><br/> With IRL sessions, Stanford and U.S.-based speakers, and access to the ASES global network, the program replicates the dynamic, high-impact networking effects of Silicon Valley. Open to 30 ambitious London-based students, participants will gain exclusive access to Stanford ASES HQ resources, and top performers could earn a spot at the prestigious ASES Summit.</p>
           </div>
           <div className="lg:p-5 flex justify-center items-center">
             <img src={ProgramOverviewImage} alt="Program Overview" className="w-full lg:w-3/4 rounded-lg drop-shadow-lg" />
+          </div>
+          <div className="flex flex-col gap-5 w-full">
+            <h1 className="text-2xl lg:text-4xl font-semibold font-spaceGrotesk text-white">Programme Overview</h1>
+            <ul className="text-white font-roboto lg:text-lg list-disc pl-5">
+              <li>Module 1: Introduction to Fellowship / Evaluating Ideas (Fireside Chat)</li>
+              <li>Module 2: Talking to Customers / Validation/ Planning an MVP</li>
+              <li>Module 3: All-things Startup Business Model</li>
+              <li>Module 4: Sourcing, Due Diligence, Platform, Memos</li>
+              <li>Module 5: Meeting with VCs (Networking Mixer)</li>
+              <li>Module 6: Sales / Pitching a Product / Marketing and Branding/ Comms</li>
+              <li>Module 7: Fundraising Basics - Both Founder/ VC Perspective (Fireside Chat)</li>
+              <li>Module 8: Startup Operations: Legal, Compliance, Talent</li>
+              <li>Module 9-10: Final Project (Pitch or VC Deliverable) (2 Weeks Process)</li>
+            </ul>
           </div>
           <div className="flex flex-col w-full gap-5 py-5">
             <h1 className="text-2xl lg:text-4xl font-semibold font-spaceGrotesk text-white">Prize</h1>
@@ -67,10 +82,11 @@ function App() {
           </div>
           <div className="lg:p-5 flex justify-center items-center">
             <img src={PrizeImage} alt="Prize" className="w-full lg:w-3/4 rounded-lg drop-shadow-lg" />
-          </div>
+            </div>
           <div className="flex flex-col gap-5 py-5">
             <h1 className="text-2xl lg:text-4xl font-semibold font-spaceGrotesk text-white">Who are we looking for?</h1>
-            <p className="text-white font-roboto lg:text-lg">We are looking for students based in London who are keen to pursue an entrepreneurial career (build / work at a startup or VC).<br/><br/>
+            <p className="text-white font-roboto lg:text-lg">We are looking for students or recent graduates based in London who are keen to pursue an entrepreneurial career (build / work at a startup or VC).<br/><br/>
+            This programme is perfect for those new to the startup scene or those looking to accelerate their entrepreneurial journey. We provide you with a solid foundation into the startup world through hands-on learning and a network of like-minded peers.<br/><br/>
             Are you driven, highly ambitious and have shown an entrepreneurial streak in your previous experiences? If so, we'd love to hear from you!</p>
           </div>
           <div className="flex flex-row gap-5 pb-5">
@@ -90,13 +106,13 @@ function App() {
           </div>
           <div className="flex flex-col gap-2 w-full">
             <h1 className="text-2xl lg:text-4xl font-semibold font-spaceGrotesk text-black">Dates</h1>
-            <p className="text-black font-roboto lg:text-lg">January 13 2025 - March 24 2025</p>
-          </div>
+            <p className="text-black font-roboto lg:text-lg">Application Deadline: December 16 2024<br/>Programme Dates: January 13 2025 - March 24 2025</p>
+          </div> 
           <div className="flex flex-col gap-2 w-full">
             <h1 className="text-2xl lg:text-4xl font-semibold font-spaceGrotesk text-black">Costs</h1>
-            <p className="text-black font-roboto lg:text-lg">45 GBP - Covers all program and administrative costs, and prize pool for the final competition.<br/>We offer financial assistance for those who are unable to afford program costs (find in the application form)</p>
+            <p className="text-black font-roboto lg:text-lg"><em>£45</em> - Covers all program and administrative costs, and prize pool for the final competition.<br/><br/>We offer financial assistance for those who are unable to afford program costs (you can find more information in the application form). </p>
           </div>
-          <a href="https://google.com" target="_blank" rel="noopener noreferrer" className="bg-primary text-white p-4 rounded-md font-bold text-lg lg:text-2xl">Apply Now</a>
+          <a href="https://forms.gle/WXCZERSABw1FHc687" target="_blank" rel="noopener noreferrer" className="bg-primary text-white p-4 rounded-md font-bold text-lg lg:text-2xl hover:scale-105 transition-all duration-300">Apply Now</a>
         </div>
       </div>
       <div className="grid grid-cols-4 gap-5 px-5 py-10 bg-primary">
@@ -123,6 +139,15 @@ function App() {
                 <p className="text-white font-roboto lg:text-lg">De La Salle University</p>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="grid grid-cols-4 gap-5 px-5 py-10 bg-white">
+        <div className="col-span-4 lg:col-start-2 lg:col-end-4 flex flex-col justify-center gap-5 items-center">
+          <div className="flex flex-col gap-5 items-center">
+            <h1 className="text-2xl lg:text-4xl font-semibold font-spaceGrotesk text-black">What is ASES London?</h1>
+            <p className="text-black font-roboto lg:text-lg text-center">ASES London is the London chapter of the Affiliated Stanford Entrepreneurial Students - the premier student entrepreneurship organization based in Stanford University. Founded in 1998, ASES's mission is to educate the future leaders in business, technology and design in order to foster a global entrepreneurship society.</p>
+            
           </div>
         </div>
       </div>
