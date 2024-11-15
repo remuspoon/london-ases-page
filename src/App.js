@@ -15,6 +15,8 @@ import Sally from './Images/sally.jpg'
 import Jyim from './Images/Jyim.jpg'
 import Brian from './Images/brian.jpg'
 import Stanley from './Images/stanley.jpg'
+import LinkedIn from './Images/linkedin.png'
+import Instagram from './Images/instagram.png'
 
 function App() {
   return (
@@ -49,21 +51,27 @@ function App() {
         <div className="col-span-4 lg:col-start-2 lg:col-end-4 flex flex-col justify-center gap-5 items-center">
           <div className="flex flex-col gap-5 py-5">
             <h1 className="text-2xl lg:text-4xl font-semibold font-spaceGrotesk text-white">Programme Overview</h1>
-            <p className="text-white font-roboto lg:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+            <p className="text-white font-roboto lg:text-lg">Apply to the Stanford ASES London Fellowship—a 12-week program for those hoping to build a startup or pursue a career in VC. Founded by alumni of Stanford's ASES Summit (2024), we are bringing the entrepreneurial energy of Silicon Valley and ASES to London. Supported by LSESU Entrepreneurs and Kings Entrepreneurs, we are looking for 30 ambitious students based in London to join our program.</p>
           </div>
           <div className="lg:p-5 flex justify-center items-center">
             <img src={ProgramOverviewImage} alt="Program Overview" className="w-full lg:w-3/4 rounded-lg drop-shadow-lg" />
           </div>
-          <div className="flex flex-col gap-5 py-5">
+          <div className="flex flex-col w-full gap-5 py-5">
             <h1 className="text-2xl lg:text-4xl font-semibold font-spaceGrotesk text-white">Prize</h1>
-            <p className="text-white font-roboto lg:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+            <p className="text-white font-roboto lg:text-lg">4 winners of the final competition will receive:</p>
+            <ul className="text-white font-roboto lg:text-lg list-disc pl-5">
+              <li>Fully subsidised slots at the Stanford ASES Summit (April 7th - 12th) in San Francisco</li>
+              <li>1:1 Mentorship with Stanford ASES</li>
+              <li>Access to exclusive mixers and meetups</li>
+            </ul>
           </div>
           <div className="lg:p-5 flex justify-center items-center">
             <img src={PrizeImage} alt="Prize" className="w-full lg:w-3/4 rounded-lg drop-shadow-lg" />
           </div>
           <div className="flex flex-col gap-5 py-5">
             <h1 className="text-2xl lg:text-4xl font-semibold font-spaceGrotesk text-white">Who are we looking for?</h1>
-            <p className="text-white font-roboto lg:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+            <p className="text-white font-roboto lg:text-lg">We are looking for students based in London who are keen to pursue an entrepreneurial career (build / work at a startup or VC).<br/><br/>
+            Are you driven, highly ambitious and have shown an entrepreneurial streak in your previous experiences? If so, we'd love to hear from you!</p>
           </div>
           <div className="flex flex-row gap-5 pb-5">
             <img src={WhoImage1} alt="Who 1" className="w-full lg:w-1/2 rounded-lg drop-shadow-lg" />
@@ -75,18 +83,18 @@ function App() {
         <div className="col-span-4 lg:col-start-2 lg:col-end-4 flex flex-col justify-center items-center gap-5">
         <div className="flex flex-col gap-2">
             <h1 className="text-2xl lg:text-4xl font-semibold font-spaceGrotesk text-black">What to expect</h1>
-            <p className="text-black font-roboto lg:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+            <p className="text-black font-roboto lg:text-lg">Weekly or bi-weekly in-person sessions covering startup and VC fundamentals, along with one-off curated dinners, co-working sessions and networking events. Participants will be expected to deliver a final project as part of the competition (startup pitch or VC deliverable).</p>
             <div className="flex justify-center items-center py-10">
               <img src={ExpectImage} alt="Expect" className="w-full lg:w-3/4 rounded-lg drop-shadow-lg" />
             </div>
           </div>
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 w-full">
             <h1 className="text-2xl lg:text-4xl font-semibold font-spaceGrotesk text-black">Dates</h1>
-            <p className="text-black font-roboto lg:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+            <p className="text-black font-roboto lg:text-lg">January 13 2025 - March 24 2025</p>
           </div>
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 w-full">
             <h1 className="text-2xl lg:text-4xl font-semibold font-spaceGrotesk text-black">Costs</h1>
-            <p className="text-black font-roboto lg:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+            <p className="text-black font-roboto lg:text-lg">45 GBP - Covers all program and administrative costs, and prize pool for the final competition.<br/>We offer financial assistance for those who are unable to afford program costs (find in the application form)</p>
           </div>
           <a href="https://google.com" target="_blank" rel="noopener noreferrer" className="bg-primary text-white p-4 rounded-md font-bold text-lg lg:text-2xl">Apply Now</a>
         </div>
@@ -174,8 +182,15 @@ function App() {
       <div className="grid grid-cols-4 gap-5 px-5 py-10 bg-white">
         <div className="col-span-4 lg:col-start-2 lg:col-end-4 flex flex-col justify-center items-center gap-5">
           <div className="flex flex-col gap-2">
-            <h1 className="text-2xl lg:text-4xl font-semibold font-spaceGrotesk py-5">Contact</h1>
-            <p className="text-black font-roboto lg:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+            <h1 className="text-2xl lg:text-4xl font-semibold font-spaceGrotesk">Contact</h1>
+            <div className="flex flex-row gap-5 py-5 justify-center items-center">
+              <a href="https://www.linkedin.com/company/ases-london/" target="_blank" rel="noopener noreferrer">
+                <img src={LinkedIn} alt="LinkedIn" className="w-10 h-10" />
+              </a>
+              <a href="https://www.instagram.com/aseslondon?igsh=MXczN2J6aXF5bm1hbQ==" target="_blank" rel="noopener noreferrer">
+                <img src={Instagram} alt="Instagram" className="w-10 h-10" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
