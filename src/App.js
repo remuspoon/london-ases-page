@@ -29,7 +29,7 @@ function App() {
                 Experience Silicon Valley in London
               </p>
             <h1 className="text-4xl lg:text-6xl font-medium text-center font-spaceGrotesk"><span className=" text-primary">ASES</span> x <span className="text-secondary">London</span></h1>
-            <h1 className="text-4xl lg:text-6xl font-medium text-center font-spaceGrotesk">Startup Fellowship</h1>
+            <h1 className="text-4xl lg:text-6xl font-medium text-center font-spaceGrotesk">Startup Bootcamp</h1>
 
             <p className="text-center text-lg lg:text-2xl font-spaceGrotesk font-medium">Join our 10 week course to get started on your startup and VC journey and a chance to win a subsidised trip to Stanford!</p>
             </div>
@@ -52,7 +52,7 @@ function App() {
         <div className="col-span-4 lg:col-start-2 lg:col-end-4 flex flex-col justify-center gap-5 items-center">
           <div className="flex flex-col gap-5">
             <h1 className="text-2xl lg:text-4xl font-semibold font-spaceGrotesk text-white">Why Join?</h1>
-            <p className="text-white font-roboto lg:text-lg">The Stanford ASES London Fellowship is a 10-week program designed for aspiring startup founders and future venture capitalists. Founded by alumni of Stanford's ASES Summit (2024), the fellowship brings the entrepreneurial energy and culture of Silicon Valley to London, supported by LSESU Entrepreneurs and Kings Entrepreneurs. <br/><br/> With IRL sessions, Stanford and U.S.-based speakers, and access to the ASES global network, the program replicates the dynamic, high-impact networking effects of Silicon Valley. Open to 30 ambitious London-based students, participants will gain exclusive access to Stanford ASES HQ resources, and top performers could earn a spot at the prestigious ASES Summit.</p>
+            <p className="text-white font-roboto lg:text-lg">The Stanford ASES London Bootcamp is a 10-week program designed for aspiring startup founders and future venture capitalists. Founded by alumni of Stanford's ASES Summit (2024), the Bootcamp brings the entrepreneurial energy and culture of Silicon Valley to London, supported by LSESU Entrepreneurs and Kings Entrepreneurs. <br/><br/> With IRL sessions, Stanford and U.S.-based speakers, and access to the ASES global network, the program replicates the dynamic, high-impact networking effects of Silicon Valley. Open to 30 ambitious London-based students, participants will gain exclusive access to Stanford ASES HQ resources, and top performers could earn a spot at the prestigious ASES Summit.</p>
           </div>
           <div className="lg:p-5 flex justify-center items-center">
             <img src={ProgramOverviewImage} alt="Program Overview" className="w-full lg:w-3/4 rounded-lg drop-shadow-lg" />
@@ -60,7 +60,7 @@ function App() {
           <div className="flex flex-col gap-5 w-full">
             <h1 className="text-2xl lg:text-4xl font-semibold font-spaceGrotesk text-white">Programme Overview</h1>
             <ul className="text-white font-roboto lg:text-lg list-disc pl-5">
-              <li>Module 1: Introduction to Fellowship / Evaluating Ideas (Fireside Chat)</li>
+              <li>Module 1: Introduction to Bootcamp / Evaluating Ideas (Fireside Chat)</li>
               <li>Module 2: Talking to Customers / Validation/ Planning an MVP</li>
               <li>Module 3: All-things Startup Business Model</li>
               <li>Module 4: Sourcing, Due Diligence, Platform, Memos</li>
@@ -85,9 +85,9 @@ function App() {
             </div>
           <div className="flex flex-col gap-5 py-5">
             <h1 className="text-2xl lg:text-4xl font-semibold font-spaceGrotesk text-white">Who are we looking for?</h1>
-            <p className="text-white font-roboto lg:text-lg">We are looking for students or recent graduates based in London who are keen to pursue an entrepreneurial career (build / work at a startup or VC).<br/><br/>
-            This programme is perfect for those new to the startup scene or those looking to accelerate their entrepreneurial journey. We provide you with a solid foundation into the startup world through hands-on learning and a network of like-minded peers.<br/><br/>
-            Are you driven, highly ambitious and have shown an entrepreneurial streak in your previous experiences? If so, we'd love to hear from you!</p>
+            <p className="text-white font-roboto lg:text-lg">We are looking for high potential students based in London who want to start an entrepreneurial career (build / work at a startup or VC).<br/><br/>
+            This programme is perfect for those new to the startup scene because we provide you with a solid foundation into the startup world through hands-on learning and a network of like-minded peers.<br/><br/>
+            Are you driven, highly ambitious and have shown a passion for entrepreneurship? If so, we'd love to hear from you!</p>
           </div>
           <div className="flex flex-row gap-5 pb-5">
             <img src={WhoImage1} alt="Who 1" className="w-full lg:w-1/2 rounded-lg drop-shadow-lg" />
