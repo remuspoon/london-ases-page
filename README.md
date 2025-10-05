@@ -1,3 +1,9 @@
+# Notes:
+
+This app uses vanilla React and Tailwind v3. The entire site can be found in `src/app.js`. Images can be found in `/images`.
+
+You may deploy this site as a subdomain on vercel, or copy the `app.js` file into the stanford repo.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
